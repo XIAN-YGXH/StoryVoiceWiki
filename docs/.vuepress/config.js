@@ -5,8 +5,8 @@ import { webpackBundler } from '@vuepress/bundler-webpack'
 export default defineUserConfig({
   lang: 'zh-CN',
 
-  title: 'VuePress文档',
-  description: '我的VuePress文档站点',
+  title: 'StoryVoice',
+  description: '',
 
   theme: defaultTheme({
     // 侧边栏配置
@@ -15,7 +15,8 @@ export default defineUserConfig({
         {
           children: [
             '/md/README.md',
-            '/md/questions.md'
+            '/md/questions.md',
+            '/md/ling1.md',
           ]
         },
         {
